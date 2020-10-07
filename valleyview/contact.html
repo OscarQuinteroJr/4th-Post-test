@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="images/logo1.jpg">
+            </a>   
+             <hi id="title">Valley View ISD</hi> 
+        </header> 
+        <section>
+            <h1>Ask a Question</h1>
+            <form action="action_page.php" method="_blank">
+                <lable for="firstName">First Name:</lable><br>
+                <input type="text" id="firstName" name="firstName"><br> 
+
+
+                <lable for="lastName">Last Name:</lable><br>
+                <input type="text" id="lastName" name="lastName"><br>               
+                
+                
+                <lable for="email">email:</lable><br>
+                <input type="email" id="email" name="email"><br>
+                
+                
+                <lable for="password">Pass Word:</lable><br>
+                <input type="password" id="password" name="password"><br>
+               
+                <!---Gender-Radio-buttos-->
+                <input type="radio" id="male" name="gender" value="male">
+                 <lable for="male">Male</lable><br>
+                
+                 <input type="radio" id="female" name="gender" value="female">
+                 <lable for="female">Famale</lable><br>              
+                 
+                 <input type="radio" id="other" name="gender" value="other">
+                 <lable for="other">Other</lable><br>
+                 <hr>
+                 <!---Classification Radio Buttons-->
+                
+                 <input type="radio" id="freshman" name="classification" value="freshman">
+                 <lable for="freshman">Freshman</lable><br>               
+                 
+                 <input type="radio" id="sophmore" name="classification" value="sophmore">
+                 <lable for="sophmore">Sophmore</lable><br>              
+                 
+                 <input type="radio" id="junior" name="classification" value="junior">
+                 <lable for="junior">Junior</lable><br>               
+                 
+                 <input type="radio" id="senior" name="classification" value="senior">
+                 <lable for="Senior">Senior</lable><br>
+
+                 <!---CHECKBOXES FOR COURSES-->
+                 <fieldset>
+                     <legend>Courses</legend>
+                     <input type="checkbox"id="cosc1301" value="cosc1301">
+                     <label for="cosc1301">cosc1301</label>                    
+                     
+                     <input type="checkbox"id="cosc1315" value="cosc1315">
+                     <label for="cosc1315">cosc1315</label> <br>
+                    
+                     <input type="checkbox"id="cosc1320" value="cosc1320">
+                     <label for="cosc1320">cosc1320</label>                 
+                     
+                     <input type="checkbox"id="cosc1436" value="cosc1436">
+                     <label for="cosc1436">cosc1436</label>
+
+                 </fieldset>
+  
+                 <label for="qestion">Type your Question</label><br>
+                 <textarea name="question" id="question" rows="10" cols=30>
+
+                 </textarea> 
+                 <br>
+                  
+                <input type="submit" value=" click to submit"><input type="reset" value= "reset form">
+                
+
+                
+            </form>
+        </section>       
+    </body>
+ </html>
